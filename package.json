@@ -1,0 +1,31 @@
+{
+  "name": "queriac-github-proxy",
+  "version": "0.1.0",
+  "description": "A Queriac proxy that serves Github repository contents as JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwdaigle/queriac-github-proxy.git"
+  },
+  "keywords": [
+    "github",
+    "queriac",
+    "proxy"
+  ],
+  "author": "Ryan Daigle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwdaigle/queriac-github-proxy/issues"
+  },
+  "homepage": "https://github.com/rwdaigle/queriac-github-proxy",
+  "devDependencies": {
+    "fstream": "^1.0.4",
+    "mkdirp": "^0.5.0",
+    "mocha": "^2.2.1",
+    "request": "^2.54.0",
+    "unzip": "^0.1.11"
+  }
+}
