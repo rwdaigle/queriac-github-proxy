@@ -9,7 +9,7 @@ describe('Repository', function() {
     repo = new Repository(path);
 
   it('should know its tarball url', function() {
-    assert.equal(repo.tarballUrl(), "https://github.com/" + path + "/archive/master.zip");
+    assert.equal(repo.downloadUrl(), "https://github.com/" + path + "/archive/master.zip");
   });
 
   it("should download the repo to a temp dir", function(done) {

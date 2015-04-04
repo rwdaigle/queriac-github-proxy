@@ -4,6 +4,7 @@
   "description": "A Queriac proxy that serves Github repository contents as JSON",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "mocha -R progress"
   },
   "repository": {
@@ -21,11 +22,14 @@
     "url": "https://github.com/rwdaigle/queriac-github-proxy/issues"
   },
   "homepage": "https://github.com/rwdaigle/queriac-github-proxy",
-  "devDependencies": {
+  "dependencies": {
     "fstream": "^1.0.4",
     "mkdirp": "^0.5.0",
-    "mocha": "^2.2.1",
     "request": "^2.54.0",
+    "restify": "^3.0.1",
     "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
   }
 }
